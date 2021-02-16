@@ -1,6 +1,8 @@
 # win32_ssh_tunnel_over_proxy
 Win32 batch script to tunnel a port from SSH server over http or socks5 proxy in poor quality network.
 
+README Chinese version available [中文版](https://github.com/kerry64/win32_ssh_tunnel_over_proxy/blob/main/README_CN.md)
+
 You can edit the batch file.
 ```batch
 : toolchain  [NO SPACE]

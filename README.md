@@ -21,6 +21,8 @@ You can edit the batch file.
   ```
   
  And ssh command is in the batch file. But it is kinda a mess.
+ 
  It tunnels my ssh port to my localhost through proxy, so I can easily use Remote SSH in VS Code.
+ 
  This is especially good at tunnelling a foreign server especially in somewhere with great firewall.
  

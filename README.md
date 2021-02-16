@@ -18,6 +18,9 @@ You can edit the batch file.
   set    port=
   set    name=kerry
   set privkey="C:\Users\Kerry\Desktop\Server\ssh_key"
+  
+  rem most parameters are optional. 
+  rem the privkey is suggested to configure for passwordless auto-reconnect.
   ```
   
  And ssh command is in the batch file. But it is kinda a mess.

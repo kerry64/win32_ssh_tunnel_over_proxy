@@ -18,6 +18,7 @@ Win32下 通过代理连接SSH隧道的 批处理脚本，工作在网络环境�
   set    port=
   set    name=kerry
   set privkey="C:\Users\Kerry\Desktop\Server\ssh_key"
+  rem 大部分参数都是可选的，这个私钥是方便免密码自动重连的，建议配置
   ```
   
  在脚本的后面是ssh的命令，很乱，但我认为足够用了。

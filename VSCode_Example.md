@@ -11,6 +11,7 @@ Some usages:
   blabla..
   
   
+  
 本脚本对于在本地常用ssh时非常实用, 可以不用大幅修改全局的ssh_config。
 
 一些用法:
@@ -21,17 +22,20 @@ Some usages:
   
   blabla..
 
+
+
 ssh_config in client:
-'''
+```
 Host tunnel
   HostName 127.0.0.1
   Port 6666
   User kerry
   IdentityFile C:\Users\User\Desktop\Server\ssh_key
-'''
+```
+
 
 port settings in this script:
-'''
+```
 : localhost
   set socks5=7890
   set   http=
@@ -43,5 +47,4 @@ port settings in this script:
   set    port= ( =sshp if empty)
   set    name=inko
   set privkey="C:\Users\User\Desktop\Server\ssh_key"
-  '''
-  
+```  
